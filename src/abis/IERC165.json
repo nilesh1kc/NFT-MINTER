@@ -1,0 +1,179 @@
+{
+  "contractName": "IERC165",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes4",
+          "name": "interfaceID",
+          "type": "bytes4"
+        }
+      ],
+      "name": "supportsInterface",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.16+commit.07a7930e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceID\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/interfaces/IERC165.sol\":\"IERC165\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/interfaces/IERC165.sol\":{\"keccak256\":\"0x0eab0051c68938668d1ab4cb42da967e6f2e18074ee0936c6439d9e4471c46f8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3385dce491ba2bc13fa7e32212ad2bbc8da62d76d47cee48b80d2557c939cfdc\",\"dweb:/ipfs/Qma4BbMbu74fwgeXPzEYitoGX6ofX3o1xdviKeZY5XWjpk\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface IERC165 {\n    \n    function supportsInterface(bytes4 interfaceID) external view returns (bool);\n}",
+  "sourcePath": "D:\\NFT\\Final\\nft-marketplace-solution\\src\\contracts\\interfaces\\IERC165.sol",
+  "ast": {
+    "absolutePath": "project:/src/contracts/interfaces/IERC165.sol",
+    "exportedSymbols": {
+      "IERC165": [
+        731
+      ]
+    },
+    "id": 732,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 723,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:7"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IERC165",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 731,
+        "linearizedBaseContracts": [
+          731
+        ],
+        "name": "IERC165",
+        "nameLocation": "67:7:7",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "01ffc9a7",
+            "id": 730,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "supportsInterface",
+            "nameLocation": "95:17:7",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 726,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 725,
+                  "mutability": "mutable",
+                  "name": "interfaceID",
+                  "nameLocation": "120:11:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 730,
+                  "src": "113:18:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes4",
+                    "typeString": "bytes4"
+                  },
+                  "typeName": {
+                    "id": 724,
+                    "name": "bytes4",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "113:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes4",
+                      "typeString": "bytes4"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "112:20:7"
+            },
+            "returnParameters": {
+              "id": 729,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 728,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 730,
+                  "src": "156:4:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 727,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "156:4:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "155:6:7"
+            },
+            "scope": 731,
+            "src": "86:76:7",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 732,
+        "src": "57:107:7",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:132:7"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.16+commit.07a7930e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.9",
+  "updatedAt": "2022-08-22T09:55:23.873Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
