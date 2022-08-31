@@ -48,7 +48,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -67,7 +68,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -86,7 +88,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -99,7 +102,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -118,7 +122,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -137,7 +142,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -156,7 +162,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -169,7 +176,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -188,7 +196,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -212,7 +221,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -225,7 +235,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -280,7 +291,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -293,7 +305,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.16+commit.07a7930e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"_from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"_to\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"name\":\"_nftExists\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"name\":\"_nftId\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_owner\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getAllTokens\",\"outputs\":[{\"internalType\":\"string[]\",\"name\":\"\",\"type\":\"string[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_nft\",\"type\":\"string\"}],\"name\":\"getTokenID\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_nft\",\"type\":\"string\"}],\"name\":\"mint\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"nfts\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"ownerOf\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceID\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"index\",\"type\":\"uint256\"}],\"name\":\"tokenByIndex\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"index\",\"type\":\"uint256\"}],\"name\":\"tokenOfOwnerByIndex\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/MyNFT.sol\":\"MyNFT\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/ERC165.sol\":{\"keccak256\":\"0x2710c70db1701321148d263e72f889175634996ba97da4019f03d3c541b03af0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9209b389507a24ddcaeb408c85ae04ff7f8564f393f06ddf115c6fec9c2c6a0c\",\"dweb:/ipfs/QmR2k43eXCf2r5qtDfSiHYaSp21y1UmL33hwE9vjuX9shp\"]},\"project:/src/contracts/ERC721.sol\":{\"keccak256\":\"0xad74da70678521189f99c736ca66e131ed5dde01da15ffb675b2ed392a2c675b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://11fc46d857efd9134d99c4c9b443e89d1daa721b03edf22b32672c6fe8b9a808\",\"dweb:/ipfs/QmcTHsj3QzH4oYA5GV6wYT7XNZznx1AQpQM1FiaHkNbviM\"]},\"project:/src/contracts/ERC721Connector.sol\":{\"keccak256\":\"0xddeb435d63825065460791670dce95dc3151287167670bda4902289b6eebfe6c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://818d62aa2b4aa552cb116988f77ee96844f6bd06ae71333c74a904f129935f42\",\"dweb:/ipfs/QmbeXcRW7qUR8fhanoL62mTemCpUunPr5A3hWexdH9C2uS\"]},\"project:/src/contracts/ERC721Enumerable.sol\":{\"keccak256\":\"0xa72b2e56f4366bda1cf82ab3b908fdc422c1f0cb08c628abedaeac66c4e1d583\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://616c0e401fffe5932620a86d008c044a77c425c0f240217f8e90f84184022e99\",\"dweb:/ipfs/QmaE9jHMrjrg6hu7VKJgQLi14KbG6CVG2gd6VdoPQe3gME\"]},\"project:/src/contracts/ERC721Metadata.sol\":{\"keccak256\":\"0x939daf1e76f4da4e77b19a73c03efd105744ddde9552c839c1bb3bbb608b3127\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://295920b9571435cd727f6baa1c7d27b00bdbbb1e69dc61bc944b96a7a48602ec\",\"dweb:/ipfs/QmR5Y49gHQYDiwhp3toejMxX4NmyCw2YAtx8TuTLnJivhx\"]},\"project:/src/contracts/MyNFT.sol\":{\"keccak256\":\"0x33a8544cef64e379f3bad3d4b4607ed5c43c8914ea40a1e87cc9ea6c704c3c76\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5e6b5490d9731cf752beaef183485688e027e0627398d8499bba57d10bc31366\",\"dweb:/ipfs/QmRGKdGT89ASZZj7HRz9A75qdybM8cynkuDVmCK5dA2nWt\"]},\"project:/src/contracts/interfaces/IERC165.sol\":{\"keccak256\":\"0x0eab0051c68938668d1ab4cb42da967e6f2e18074ee0936c6439d9e4471c46f8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3385dce491ba2bc13fa7e32212ad2bbc8da62d76d47cee48b80d2557c939cfdc\",\"dweb:/ipfs/Qma4BbMbu74fwgeXPzEYitoGX6ofX3o1xdviKeZY5XWjpk\"]},\"project:/src/contracts/interfaces/IERC721.sol\":{\"keccak256\":\"0xe45ed6552b729c653049f95838608d079dfbc4a6c5bee0e7c7da115a1f07d6a2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://838af6859eac87a6002c9dcdf7fb26f78ca3d4d4a9eb58dbe754f01cb0cf7227\",\"dweb:/ipfs/QmenjcbphVsTSV65nD29p3MH6PW53pEALJkExsWVfNZKLS\"]},\"project:/src/contracts/interfaces/IERC721Enumerable.sol\":{\"keccak256\":\"0x7ad6eb5af8bd543b9bea2b3d5e020157c5f5ef88e107d164f5c3bba54cfd28ba\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://51b80073c97e8fae3a55a131cd6eb4029d1fc89b3afef36c72799830c435bdb4\",\"dweb:/ipfs/QmP5CDFyTeaPkiPFbuj36GGUqH9nKn2pRJSQn3LXcK7yDz\"]},\"project:/src/contracts/interfaces/IERC721Metadata.sol\":{\"keccak256\":\"0xf48a5ee3d8585a0bb95bee923873d12513321b383732901c7479a2459695e9ca\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d6267e0641b50ec9e0a273c0d1d449f9f52992e86ed2daa0637f80863f0d6634\",\"dweb:/ipfs/QmWoVFWRUVRBPkBmJqwiiSTUVjpJH4qXxtXRfaHTuZ2p2u\"]}},\"version\":1}",
@@ -17929,12 +17942,13 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xd7B09e9143b115fb9350051426B72C7128ecCC2f",
-      "transactionHash": "0x774c566389f80b8cafd3af5a802cf1ba8e641c3674ec0b7cb5b402b59c170cb4"
+      "address": "0xD688B63C27d16Cb39546af83C7CF434AA3808cD0",
+      "transactionHash": "0xe5c1b9077c21ae5210d4b9d04e88ff3a93446c46d4879c4c855e7cb526fd16b7"
     }
   },
   "schemaVersion": "3.4.9",
-  "updatedAt": "2022-08-31T16:05:12.959Z",
+  "updatedAt": "2022-08-31T16:08:14.280Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
