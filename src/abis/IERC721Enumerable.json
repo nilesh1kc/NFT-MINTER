@@ -67,7 +67,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface IERC721Enumerable {\n   \n    function totalSupply() external view returns (uint256);\n\n    function tokenByIndex(uint256 _index) external view returns (uint256);\n\n    function tokenOfOwnerByIndex(address _owner, uint256 _index) external view returns (uint256);\n}\n",
-  "sourcePath": "D:\\NFT\\Final\\nft-marketplace-solution\\src\\contracts\\interfaces\\IERC721Enumerable.sol",
+  "sourcePath": "D:\\NFT\\Final\\NFT-MINTER\\src\\contracts\\interfaces\\IERC721Enumerable.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/interfaces/IERC721Enumerable.sol",
     "exportedSymbols": {
@@ -368,7 +368,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.9",
-  "updatedAt": "2022-08-22T09:55:23.880Z",
+  "updatedAt": "2022-08-31T16:05:12.994Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

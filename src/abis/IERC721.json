@@ -97,7 +97,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface IERC721  {\n\n    event Transfer(address indexed _from, address indexed _to, uint256 indexed _tokenId);\n\n    function balanceOf(address _owner) external view returns (uint256);\n\n    function ownerOf(uint256 _tokenId) external view returns (address);\n\n    function transferFrom(address _from, address _to, uint256 _tokenId) external;\n}\n",
-  "sourcePath": "D:\\NFT\\Final\\nft-marketplace-solution\\src\\contracts\\interfaces\\IERC721.sol",
+  "sourcePath": "D:\\NFT\\Final\\NFT-MINTER\\src\\contracts\\interfaces\\IERC721.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/interfaces/IERC721.sol",
     "exportedSymbols": {
@@ -530,7 +530,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.9",
-  "updatedAt": "2022-08-22T09:55:23.875Z",
+  "updatedAt": "2022-08-31T16:05:12.990Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

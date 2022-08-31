@@ -37,7 +37,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface IERC721Metadata {\n\n    function name() external view returns (string memory _name);\n\n    function symbol() external view returns (string memory _symbol);\n}",
-  "sourcePath": "D:\\NFT\\Final\\nft-marketplace-solution\\src\\contracts\\interfaces\\IERC721Metadata.sol",
+  "sourcePath": "D:\\NFT\\Final\\NFT-MINTER\\src\\contracts\\interfaces\\IERC721Metadata.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/interfaces/IERC721Metadata.sol",
     "exportedSymbols": {
@@ -199,7 +199,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.9",
-  "updatedAt": "2022-08-22T09:55:23.882Z",
+  "updatedAt": "2022-08-31T16:05:12.998Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
