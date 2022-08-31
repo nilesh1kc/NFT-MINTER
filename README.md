@@ -1,7 +1,21 @@
-Commands
-To start react dev server<br/>
-npm start<br/>
-To compile Smart Contracts<br/>
-truffle compile<br/>
-To deploy Smart Contract<br/>
-truffle migrate --reset<br/>
+Commands 
+- To install Node Modules
+```
+npm install
+```
+- To compile Smart Contracts
+```
+truffle compile
+```
+- To start react dev server
+```
+npm start
+```
+- To deploy Smart Contract
+```
+truffle migrate --reset
+```
+
+### Important Points
+- Make sure your Ganache is running
+- Make sure your MetaMask Wallet is connected
